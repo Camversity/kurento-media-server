@@ -8,7 +8,7 @@ if [ $# -lt $expected_args ]
     exit
 fi
 
-currentDir=@CMAKE_INSTALL_PREFIX@/share/kurento/scaffold
+currentDir=/usr/local/share/kurento/scaffold
 
 camelName=$1
 name=`echo $camelName | sed -e 's/\([A-Z]\)/\L\1/g'`
