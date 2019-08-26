@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtransport.a  CMakeFiles/transport.dir/TransportFactory.cpp.o
-/usr/bin/ranlib libtransport.a
