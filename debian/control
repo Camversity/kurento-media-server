@@ -4,11 +4,9 @@ Maintainer: Kurento <kurento@googlegroups.com>
 Build-Depends: debhelper (>= 9),
  cmake,
  gstreamer1.0-plugins-good,
- kms-cmake-utils,
  kms-core-dev,
  kms-elements-dev,
  kms-filters-dev,
- kurento-module-creator,
  libboost-dev,
  libboost-filesystem-dev,
  libboost-log-dev,
@@ -41,6 +39,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  kms-elements,
  kms-filters,
  libgstreamer-plugins-base1.0-0
+ websocketpp
 Description: Kurento Media Server
  KMS is a WebRTC-compatible server that processes audio and video streams,
  doing composable pipeline-based processing of media.
